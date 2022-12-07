@@ -2,11 +2,11 @@
 
 Scans an image upon container run and saves it under `/data/$datetime.jpg`
 
-## build
-
-in this directory:
+## Build
 
 ```shell
+git clone https://github.com/pulsar256/insanescanner.git
+cd insanescanner 
 docker build -t insanescanner .
 ```
 
